@@ -2,18 +2,19 @@
 <html lang="fi">
 <head>
  <title>Vesa Peraston verkkosivut - avataan pian</title>
+ <link href="{{site.baseurl}}/css/layout.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
   <header>
     <strong>Vesan verkkosivut</strong>
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}/">Etusivu</a></li>
-        <li><a href="{{site.baseurl}}/news.html">Ajankohtaista</a></li>
-      </ul>
-    </nav>
+    {% include nav.html navclass='nav-top'%}
   </header>
-
-{{content}}
+  <h1>Otsikkotaso 1</h1>
+  {{content}}
+  <footer>
+    {% include nav.html navclass='nav-bottom'%}
+    <p>&copy; 2016 Vesa Perasto</p>
+  </footer>
 </body>
 </html>
