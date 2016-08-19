@@ -32,3 +32,11 @@ h1,h2,h3,h4,h5,h6 {
 .nav-bottom {
   font-size: 80%;
 }
+.submenu {
+  font-size: 80%;
+  color: grey;
+}
+.submenu strong {
+    margin: 5px 20px;
+    display: block;
+}
