@@ -6,7 +6,7 @@ layout: news
 <ul>
   {% for blog in site.categories.blog %}
   <li>
-    <a href='{{site.baseurl}}/{{blog.url}}'>{{blog.title}}</a>
+    <a href="{{site.baseurl}}/{{blog.url}}">{{blog.title}}</a>
     <p>{{blog.meta}}</p>
   </li>
   {% endfor %}
