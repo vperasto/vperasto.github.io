@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
 }
 
-/*nav*/
+/* nav */
 .nav {
   margin: 0;
   padding: 0;
@@ -32,6 +32,8 @@ h1,h2,h3,h4,h5,h6 {
 .nav-bottom {
   font-size: 80%;
 }
+
+/* submenu */
 .submenu {
   font-size: 80%;
   color: grey;
