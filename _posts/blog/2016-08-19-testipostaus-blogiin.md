@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: Testataan Jekyllillä useampia kategorioita
 meta: Tää on kiva blogijuttu
 source: tähän url lähteeseen
