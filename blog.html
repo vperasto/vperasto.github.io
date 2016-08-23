@@ -1,0 +1,13 @@
+---
+layout: news
+---
+<h2>Viimeisimmät blogikirjoitukset</h2>
+
+<ul>
+  {% for blog in site.categories.blog %}
+  <li>
+    <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
+    <p>{{blog.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>

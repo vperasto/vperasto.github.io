@@ -1,0 +1,13 @@
+---
+layout: news
+---
+<h2>Tiedotteet</h2>
+
+<ul>
+  {% for news in site.categories.news %}
+  <li>
+    <a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
+    <p>{{news.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>

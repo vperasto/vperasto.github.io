@@ -1,0 +1,22 @@
+# Site settings
+title: Vesa Perasto
+description: |
+  Web-suunnittelija ja fysioterapeutti opiskelija
+owner: Vesa Perasto
+first_published: 2016
+email: vesa.perasto@gmail.com
+baseurl: /vperasto.github.io
+url: "vperasto.github.io"
+social:
+  twitter: https://twitter.com/perasto
+  github: https://github.com/vperasto
+  linkedin-square: https://fi.linkedin.com/in/vesa-perasto-aa20ba67
+  google-plus-square: https://plus.google.com/+VesaPerasto
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
+
+#excludes
+exclude: ['README.md']
