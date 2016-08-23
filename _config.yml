@@ -5,7 +5,7 @@ description: |
 owner: Vesa Perasto
 first_published: 2016
 email: vesa.perasto@gmail.com
-baseurl: /vperasto.github.io
+baseurl: /
 url: "vperasto.github.io"
 social:
   twitter: https://twitter.com/perasto
