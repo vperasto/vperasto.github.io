@@ -1,22 +1,60 @@
+# Build settings
+markdown: kramdown
+
 # Site settings
+baseurl: /vperasto.github.io
+url: "vperasto.github.io"
 title: Vesa Perasto
 description: |
   Web-suunnittelija ja fysioterapeutti opiskelija
 owner: Vesa Perasto
 first_published: 2016
 email: vesa.perasto@gmail.com
-baseurl: /vperasto.github.io
-url: "vperasto.github.io"
-social:
-  twitter: https://twitter.com/perasto
-  github: https://github.com/vperasto
-  linkedin-square: https://fi.linkedin.com/in/vesa-perasto-aa20ba67
-  google-plus-square: https://plus.google.com/+VesaPerasto
 
-# Build settings
-markdown: kramdown
-#sass:
-#  style: compressed
+#articles
+paginate: 10 #per page
+paginate_path: /blog/page:num #makes pagination working
 
-#excludes
-exclude: ['README.md']
+
+#contacts
+git: "https://github.com/vperasto"
+twitter: "https://twitter.com/perasto"
+linkedin-square: "https://fi.linkedin.com/in/vesa-perasto-aa20ba67"
+google-plus-square: "https://plus.google.com/+VesaPerasto"
+
+#disqus comment
+disqus:
+    shortname: "vesaperasto" #your disqus comment short name
+
+#google analytics
+google:
+    tracking-id: "" #your tracking id here
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
