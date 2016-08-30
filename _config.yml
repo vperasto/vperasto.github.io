@@ -12,7 +12,7 @@ email: vesa.perasto@gmail.com
 
 #articles
 paginate: 10 #per page
-paginate_path: /blog/page:num #makes pagination working
+paginate_path: /blogi/page:num #makes pagination working
 
 #contacts
 git: "https://github.com/vperasto"

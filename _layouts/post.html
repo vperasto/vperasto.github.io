@@ -29,9 +29,9 @@ layout: default
         <div class="col-md-6 post-nav">
 
           <h3 class="section-header">
-            Older
+            Vanhempia kirjoituksia
             <span class="text-muted"> &middot; </span>
-            <a href="{{ "/blogiarkisto" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
+            <a href="{{ "/blogiarkisto" | prepend:site.baseurl }}">Avaa arkisto ({{ site.posts.size }})</a>
           </h3>
 
           <h2 class="post-title-link"><a href="{{ page.previous.url | prepend:site.baseurl }}">{{ page.previous.title }}</a></h2>
@@ -42,7 +42,7 @@ layout: default
 
         <div class="col-md-6 post-nav">
           <h3 class="section-header">
-            Newer
+            Uudempia kirjoituksia
             {% unless page.previous %}
               <span class="text-muted"> &middot; </span>
               <a href="{{ "/blogiarkisto" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
