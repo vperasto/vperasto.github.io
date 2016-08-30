@@ -282,3 +282,8 @@ hr:after {
 	color: #387AA7;
 	font-size: 18px;
 }
+
+.top {
+    padding: 20px;
+    background-color: #14191d;
+}
