@@ -1,9 +1,10 @@
 This is my personal website.
 Built with: Jekyll
+Theme: https://github.com/railsr/autm-rb
 
-Todo:
+###Todo:
 
 - [x] domain
-- [ ] theme
+- [x] theme
 - [ ] pages / subpages
 - [ ] content
