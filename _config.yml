@@ -2,10 +2,11 @@
 markdown: kramdown
 
 # Site settings
-baseurl: "/vperasto.github.io"
+baseurl: /vperasto.github.io
 url: "vperasto.github.io"
 title: Vesa Perasto
-description: | Web-suunnittelija ja fysioterapeutti opiskelija
+description: |
+  Web-suunnittelija ja fysioterapeutti opiskelija
 owner: Vesa Perasto
 email: vesa.perasto@gmail.com
 
