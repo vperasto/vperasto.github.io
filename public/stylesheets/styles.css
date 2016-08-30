@@ -87,7 +87,7 @@ strong {
 }
 
 .wrapper {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
@@ -244,11 +244,12 @@ footer .right{
 #title #sitename,
 .resume span,
 .resume h2 {
-  color: #EC4E3B;
+  color: #49b1f7;
 }
 
 #sitename{
-  font-weight: 300;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 mark, .mark {

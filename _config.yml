@@ -2,8 +2,8 @@
 markdown: kramdown
 
 # Site settings
-baseurl: /vperasto.github.io
-url: "vperasto.github.io"
+baseurl: /
+url: "koodaaja.net"
 title: Vesa Perasto
 description: |
   Web-suunnittelija ja fysioterapeutti opiskelija
