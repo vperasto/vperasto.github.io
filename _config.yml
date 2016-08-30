@@ -22,7 +22,7 @@ google-plus-square: "https://plus.google.com/+VesaPerasto"
 
 #disqus comment
 disqus:
-    shortname: "vesaperasto" #your disqus comment short name
+    shortname: "koodaaja" #your disqus comment short name
 
 #google analytics
 google:
