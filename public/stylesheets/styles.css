@@ -240,11 +240,23 @@ footer .right{
   -moz-border-radius: 150px;
   margin-bottom: 15px;
 }
+#title .circular {
+    width: 35px;
+    height: 35px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    margin-bottom: 8px;
+    display: inline-block;
+    margin-right: 14px;
+    margin-top: 0px;
+}
+
 
 #title #sitename,
 .resume span,
 .resume h2 {
-  color: #49b1f7;
+  color: #fff;
 }
 
 #sitename{
