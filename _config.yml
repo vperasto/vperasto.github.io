@@ -2,19 +2,16 @@
 markdown: kramdown
 
 # Site settings
-baseurl: /
-url: "koodaaja.net"
+baseurl: /vperasto.github.io
+url: "vperasto.github.io"
 title: Vesa Perasto
-description: |
-  Web-suunnittelija ja fysioterapeutti opiskelija
+description: | Web-suunnittelija ja fysioterapeutti opiskelija
 owner: Vesa Perasto
-first_published: 2016
 email: vesa.perasto@gmail.com
 
 #articles
 paginate: 10 #per page
 paginate_path: /blog/page:num #makes pagination working
-
 
 #contacts
 git: "https://github.com/vperasto"
