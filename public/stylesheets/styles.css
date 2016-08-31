@@ -287,3 +287,9 @@ hr:after {
     padding: 20px;
     background-color: #14191d;
 }
+.lomake {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 35px 0;
+}
