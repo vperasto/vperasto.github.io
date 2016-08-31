@@ -290,6 +290,6 @@ hr:after {
 .lomake {
     display: block;
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0;
     padding: 35px 0;
 }
