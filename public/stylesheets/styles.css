@@ -246,10 +246,8 @@ footer .right{
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
-    margin-bottom: 8px;
-    display: inline-block;
-    margin-right: 14px;
-    margin-top: 0px;
+    margin: 0 auto 10px;
+    display: block;
 }
 
 
