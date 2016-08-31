@@ -11,9 +11,13 @@ layout: welcome
 
   <p>Ota yhteyttä <a href="mailto:vesa.perasto@gmail.com">vesa.perasto[at]gmail.com</a> tai jätä viesti alla olevalla lomakkeella</p>
 
-  <div class="cognito">
-  <script src="https://services.cognitoforms.com/s/CHmXLYBgMEuwIumYKTmtfA"></script>
-  <script>Cognito.load("forms", { id: "1" });</script>
+  <div class="lomake">
+    <form action="https://formspree.io/vesa.perasto@gmail.com"
+        method="POST">
+      <input type="text" name="name">
+      <input type="email" name="_replyto">
+      <input type="submit" value="Lähetä">
+  </form>
   </div>
 
 </div>
