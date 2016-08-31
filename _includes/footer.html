@@ -1,13 +1,11 @@
 <footer>
 <hr/>
   <div class="left">
-    &copy;{{ site.time | date:"%Y" }}.
-    Built with <a href="http://jekyllrb.com/">Jekyll</a> and
-    <a href="https://github.com/railsr/autm-rb">Autm-rb</a>
+    &copy;{{ site.time | date:"%Y" }} Vesa Perasto.
   </div>
 
   <div class="right">
-    <a href="{{ "/blogiarkisto" | prepend:site.baseurl }}">Blogiarkisto</a> | 
+    <a href="{{ "/blogiarkisto" | prepend:site.baseurl }}" style="color: c0c0c0;">Arkisto</a> |
     {% unless site.twitter == "" %}
       <a href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" style="color:#49B1F7;"></i></a>
     </a>
