@@ -11,14 +11,14 @@ layout: welcome
 
   <p>Ota yhteyttä <a href="mailto:vesa.perasto@gmail.com">vesa.perasto[at]gmail.com</a> tai jätä viesti alla olevalla lomakkeella</p>
 
-  <div class="form-group">
+  <div class="lomake">
     <form id="contactform" method="POST">
-      <input type="text" name="name" placeholder="Nimi">
-      <input type="email" name="_replyto" placeholder="Email">
+      <div class="form-group"><input type="text" name="name" placeholder="Nimi"></div>
+      <div class="form-group"><input type="email" name="_replyto" placeholder="Email"></div>
       <input type="hidden" name="_subject" value="Koodaaja.net palautelomake" />
-      <textarea name="message" placeholder="Viestisi"></textarea>
+      <div class="form-group"><textarea name="message" placeholder="Viestisi"></textarea></div>
       <input type="text" name="_gotcha" style="display:none" />
-      <input type="submit" value="Lähetä">
+      <div class="form-group"><input type="submit" value="Lähetä"></div>
     </form>
     <script>
         var contactform =  document.getElementById('contactform');
