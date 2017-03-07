@@ -1,5 +1,6 @@
 ---
 published: true
+title: Finnish society and social policy
 tags:
   - portfolio
 ---
