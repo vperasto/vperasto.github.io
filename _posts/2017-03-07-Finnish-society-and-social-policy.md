@@ -1,5 +1,7 @@
 ---
-published: false
+published: true
+tags:
+  - portfolio
 ---
 ## Finnish society and social policy
 
