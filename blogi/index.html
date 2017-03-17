@@ -11,8 +11,8 @@ title: "Blogi | Koodari fysioterapeutin opinnoissa"
   {% include post-header-home.html %}
 </div>
 <div class="post-excerpt-home">
-  {{ post.excerpt }}
-  <p class="text-left"><a href="{{ post.url | prepend:site.baseurl }}">Lue koko artikkeli &rarr;</a></p>
+  <div class="pad020">{{ post.excerpt }}
+  <p class="text-left"><a href="{{ post.url | prepend:site.baseurl }}">Lue koko artikkeli &rarr;</a></p></div>
 </div>
 {% endfor %}
 
