@@ -17,3 +17,4 @@ Opiskelija:
 
 
 ## Kurssista omin sanoin / oma oppiminen
+[sisällön haussa tapahtui virhe.]
