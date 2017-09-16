@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # Site settings
-baseurl: /vperasto.github.io
+baseurl: /
 url: "vperasto.github.io"
 title: Vesa Perasto
 description: |
