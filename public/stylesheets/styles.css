@@ -50,7 +50,7 @@ h3 {
 }
 
 a {
-  color: #49B1F7;
+  color: rgba(0,0,0,0.5);
   font-weight: 400;
   text-decoration: none;
 }
