@@ -4,9 +4,9 @@ body {
   padding: 0px 0 20px 0px;
   margin: 0px;
   font: 14px/1.5 'Open Sans', sans-serif;
-  color: #A3BFC6 ;
+  color: #222A30 ;
   font-weight: normal;
-  background: #222A30;
+  background: #00d0ff;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #EC4E3B;
+  color: #fff;
   margin: 0 0 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -38,7 +38,7 @@ h2 {
 }
 
 h4, h5, h6 {
-  color: #e8e8e8;
+  color: #222A30;
 }
 
 h3 {
@@ -90,7 +90,7 @@ strong {
   max-width: 800px;
   margin: 0 auto;
   position: relative;
-  padding: 0 20px;
+  padding: 0 50px;
 }
 
 section img {
@@ -162,9 +162,9 @@ section #title h1 {
 }
 
 section #title p {
-  color: #B3D1F0;
+  color: #222A30;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 18px;
   text-align: center;
 }
