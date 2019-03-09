@@ -6,7 +6,7 @@ body {
   font: 14px/1.5 'Open Sans', sans-serif;
   color: #222A30 ;
   font-weight: normal;
-  background: #00d0ff;
+  background: #fff;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -91,6 +91,7 @@ strong {
   margin: 0 auto;
   position: relative;
   padding: 0 50px;
+  background: #222A30;
 }
 
 section img {
@@ -283,7 +284,8 @@ hr:after {
 
 .top {
     padding: 20px;
-    background-color: #ef821e;
+    background-color: #201640;
+    margin-bottom:2px:
 }
 .lomake {
     display: block;
