@@ -1,11 +1,11 @@
 ---
-published: false
+published: true
 title: 	Liikkuva-ja-toimiva-ihminen
 tags:
   - portfolio
 ---
 ## Sisältö ja kurssitavoitteet
-
+Updatee
 
 
 
