@@ -1,15 +1,20 @@
-<footer>
-<hr/>
-  <div class="left">
-    &copy;{{ site.time | date:"%Y" }} Vesa Perasto.
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <!-- begin footer -->
+      {% if site.footer-image %}
+        <footer class="footer footer-image" style="background-image: url('{{site.footer-image | relative_url }}')">
+          {% include contact-link.html %}
+            <div class="copyright wow fadeInUp" data-wow-delay=".2s">{{site.time | date: '%Y'}} &copy; <a href="/" class="copyright__link">{% if site.title %}{{site.title}}{% else %}Reked Theme{% endif %}</a>. Crafted & Designed by <a href="https://artemsheludko.github.io" class="copyright__link">Artem Sheludko</a>.</div>
+        </footer>
+      {% else %}
+        <footer class="footer">
+          {% include contact-link.html %}
+            <div class="copyright wow fadeInUp" data-wow-delay=".2s">{{site.time | date: '%Y'}} &copy; <a href="/" class="copyright__link">{% if site.title %}{{site.title}}{% else %}Reked Theme{% endif %}</a>. Crafted & Designed by <a
+              href="https://artemsheludko.github.io" class="copyright__link">Artem Sheludko</a>.</div>
+        </footer>
+      {% endif %}
+      <!-- end footer -->
+    </div>
   </div>
-
-  <div class="right">
-    <a href="{{ "/blogiarkisto" | prepend:site.baseurl }}" style="color: c0c0c0;">Arkisto</a> |
-    <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script><a id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/bookingpage/3bfdb141-f511-4e1e-be62-cda026593471"><img border="none" src="https://vperasto.github.io/public/button_varaa-aika.png" alt="Book an appointment with Hieronta Vesa Perasto using SetMore" /></a> |
-    {% unless site.twitter == "" %}
-      <a href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" style="color:#49B1F7;"></i></a>
-    </a>
-    {% endunless %}
-  </div>
-</footer>
+</div>
