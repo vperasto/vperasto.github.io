@@ -21,3 +21,5 @@ lorem ipsum dolor sit amet
 #### Työkokemus
 
 lorem ipsum dolor sit amet
+
+Yhteydenotot vesa.perasto@gmail.com
