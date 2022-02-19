@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Sivuston päivitystä / testikirjoitus blogiin
-date: {}
-image: images/02.jpg
+date: 2021-02-19T00:00:00.000Z
+image: images/simpsiö-iltaaurinko.png
 tags:
   - Work
 published: true
 ---
 Paljon on vettä virrannut Lapuan joessa sillä välin, kun olen miettinyt blogin kirjoittamisen aloittamista ja sen jälkeen haudannut koko idean syvälle Simpsiön metsiin... ja käynyt em. prosessin kymmeniä kertoja läpi. Nyt on aika koittaa tai jättää se sinne Simpsiön multiin iäksi.
 
-![Simpsiö iltaruskossaan]({{site.baseurl}}/images/images/simpsiö-iltaaurinko.png)
+![Simpsiö iltaruskossaan]({{site.baseurl}}/images/images/vesa-laituri.png)
 *Simpsiön vuori Välilästä käsin tarkasteltuna*
 
 1. Miksi siis blogi?
