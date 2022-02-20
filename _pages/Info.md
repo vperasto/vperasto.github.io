@@ -2,7 +2,7 @@
 layout: page
 title: Info
 permalink: /info/
-image: images/hyppy.png
+image: images/omakuva-top.png
 published: true
 ---
 
