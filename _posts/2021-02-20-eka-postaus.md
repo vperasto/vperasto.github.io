@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sivuston päivitystä / testikirjoitus blogiin
-date: {}
+date: 2021-02-19T00:00:00.000Z
 image: images/simpsiö-iltaaurinko.png
 tags:
   - Muut
