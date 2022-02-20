@@ -2,10 +2,10 @@
 layout: page
 title: Info
 permalink: /info/
-image: images/01.jpg
+image: images/omakuva-mustavalko.png
 ---
 
-Mitään suurempaa elämäntarinaa en tässä osiossa kerro. Käyn lyhyesti listamuotoisena tärkeimmät koulutukseni sekä työkokemukseni.
+Infosivulta löydät lyhyesti listamuotoisena tärkeimmät koulutukseni sekä työkokemukseni.
 
 #### Perustiedot
 
